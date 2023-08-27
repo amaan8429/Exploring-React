@@ -16,7 +16,7 @@ const Videos = () => {
 
   return (
     <Stack direction={['column', 'row']} h={'100vh'}>
-      <VStack w={'full'}>
+      <VStack w={['full', '70%']}>
         <video
           controls
           controlsList="nodownload"
@@ -35,7 +35,7 @@ const Videos = () => {
         </VStack>
       </VStack>
       <VStack
-        w={['full', 'xl']}
+        w={['full', '30%']}
         alignItems={'stretch'}
         p="8"
         spacing={'8'}
